@@ -1,0 +1,16 @@
+<h1>Login</h1>
+
+<div ng-controller="login">
+    <label for="uname"><b>Username</b></label>
+    <input ng-model="username" type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input ng-model="pswd" type="password" placeholder="Enter Password" name="psw" required>
+
+    <button ng-click="press(username, pswd)" type="submit">Login</button>
+    <a ui-sref="signup"><button type="submit">Sign Up</button></a>
+</div>
+
+
+
+
